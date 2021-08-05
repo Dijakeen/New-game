@@ -319,7 +319,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3375823980107132560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1703824957, guid: 23730426685cca54cb1e72ecc56db35f, type: 3}
+        m_TargetAssemblyTypeName: gameCanvas, Assembly-CSharp
+        m_MethodName: CanvasOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3375823980257032169
 GameObject:
   m_ObjectHideFlags: 0

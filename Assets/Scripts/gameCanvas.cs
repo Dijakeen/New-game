@@ -5,7 +5,7 @@ using UnityEngine;
 public class gameCanvas : MonoBehaviour
 {
     public GameObject prefabCanvas;
-    GameObject canvasGame;
+    static GameObject canvasGame;
     
     void Start()
     {
@@ -28,5 +28,11 @@ public class gameCanvas : MonoBehaviour
             Time.timeScale = 1;
             Cursor.lockState = CursorLockMode.Locked;
         }
+    }
+    static public void CanvasOff()
+    {
+        canvasGame.SetActive(false);
+        Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
