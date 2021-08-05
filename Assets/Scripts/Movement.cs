@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     [SerializeField] float maxMAXSpeed = 30f;
     [SerializeField] Vector3 gravity;
     Rigidbody rigidbodyComponent;
+    [SerializeField] GameManedger gM;
 
     
 
@@ -60,6 +61,14 @@ public class Movement : MonoBehaviour
                 float also = Input.GetAxis("Vertical") * speed;
                 rigidbodyComponent.velocity += transform.forward * also;
             }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag != "Respawn")
+        {
+            gM.RestartLvl();
         }
     }
 }

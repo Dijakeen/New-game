@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MailMenu.unity
+    guid: d4ca8e61bea396348a61946f2d8d0892
+  - enabled: 1
+    path: Assets/Scenes/TestLvl.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Test lvl 2.unity
+    guid: 3265bb63fb2e2d947b13a549a3486954
   m_configObjects: {}
