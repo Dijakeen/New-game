@@ -187,7 +187,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1826417806474146748, guid: 23730426685cca54cb1e72ecc56db35f, type: 3}
         m_TargetAssemblyTypeName: GameManedger, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.3301887, g: 0.22012578, b: 0.22012578, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -319,19 +319,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3375823980107132560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: gameCanvas, Assembly-CSharp
-        m_MethodName: Continue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &3375823980257032169
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +595,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1826417806474146748, guid: 23730426685cca54cb1e72ecc56db35f, type: 3}
         m_TargetAssemblyTypeName: GameManedger, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
@@ -637,7 +625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3375823981406543838
 RectTransform:
   m_ObjectHideFlags: 0

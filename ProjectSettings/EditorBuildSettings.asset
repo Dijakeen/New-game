@@ -9,9 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MailMenu.unity
     guid: d4ca8e61bea396348a61946f2d8d0892
   - enabled: 1
-    path: Assets/Scenes/TestLvl.unity
+    path: Assets/Scenes/LVL 1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Test lvl 2.unity
+    path: Assets/Scenes/LVL 2.unity
     guid: 3265bb63fb2e2d947b13a549a3486954
+  - enabled: 1
+    path: Assets/Scenes/LVL 3.unity
+    guid: 475cec10e19b93a479d49e6a8f95aaa3
+  - enabled: 1
+    path: Assets/Scenes/LVL 4.unity
+    guid: 9841edf6dbd17884fbfc24c403c3c911
+  - enabled: 1
+    path: Assets/Scenes/LVL 5.unity
+    guid: f5f37e7eae660034d94f1a7460f44ebb
   m_configObjects: {}

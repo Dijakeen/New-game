@@ -4,32 +4,29 @@ using UnityEngine;
 
 public class gameCanvas : MonoBehaviour
 {
-    public GameObject canvas;
+    public GameObject prefabCanvas;
+    GameObject canvasGame;
+    
     void Start()
     {
-        
+        canvasGame = Instantiate(prefabCanvas);
+        canvasGame.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !canvas.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Escape) && !canvasGame.activeSelf)
         {
-            canvas.SetActive(true);
+            canvasGame.SetActive(true);
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.Confined;
         }
         else if(Input.GetKeyDown(KeyCode.Escape))
         {
-            canvas.SetActive(false);
+            canvasGame.SetActive(false);
             Time.timeScale = 1;
             Cursor.lockState = CursorLockMode.Locked;
         }
-    }
-    public void Continue()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-        canvas.SetActive(false);
-        Time.timeScale = 1;
     }
 }
